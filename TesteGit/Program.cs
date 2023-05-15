@@ -11,6 +11,7 @@ namespace TesteGit
         static void Main(string[] args)
         {
             Console.WriteLine("ALOU");
+            Console.WriteLine("Teste pra ver se mudou algo");
             Console.ReadKey();
         }
     }
