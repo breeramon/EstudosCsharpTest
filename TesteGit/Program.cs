@@ -10,7 +10,18 @@ namespace TesteGit
     {
         static void Main(string[] args)
         {
-            Veiculo veiculo1 = new Veiculo(4, 4, "Preto");
+            Console.Write("Número de rodas do veiculo: ");
+            int Rodas = int.Parse(Console.ReadLine());
+
+            Console.Write("Número de portas: ");
+            int Portas = int.Parse(Console.ReadLine());
+
+            Console.Write("Cor do veiculo: ");
+            string Cor = Console.ReadLine();
+
+            Console.WriteLine("");
+
+            Veiculo veiculo1 = new Veiculo(Rodas, Portas, Cor);
             veiculo1.ExibirInfo();
 
             Console.WriteLine("");
