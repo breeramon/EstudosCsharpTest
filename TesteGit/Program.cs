@@ -26,8 +26,23 @@ namespace TesteGit
 
             Console.WriteLine("");
 
-            Carro carro1 = new Carro("Ford");
+            Console.Write("Marca do Carro: ");
+            string MarcaCarro = Console.ReadLine();
+
+            Console.WriteLine("");
+
+            Carro carro1 = new Carro(MarcaCarro);
             carro1.ExibirInfo();
+
+            Console.WriteLine("");
+
+            Console.Write("Marca da Moto: ");
+            string MarcaMoto = Console.ReadLine();
+
+            Console.WriteLine("");
+
+            Moto moto1 = new Moto(MarcaMoto);
+            moto1.ExibirInfo();
 
             Console.ReadKey();
         }

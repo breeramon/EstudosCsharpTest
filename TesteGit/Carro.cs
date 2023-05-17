@@ -15,12 +15,13 @@ namespace TesteGit
             Marca = marca;
         }
 
-        public void ExibirInfo()
+        override public void ExibirInfo()
         {
-            Console.WriteLine("Rodas = {0}", Rodas);
-            Console.WriteLine("Portas = {0}", Portas);
-            Console.WriteLine("Cor = {0}", Cor);
-            Console.WriteLine("Marca = {0}", Marca);
+            Console.WriteLine("Carro:");
+            Console.WriteLine("Quantidade de rodas do Carro = {0}", Rodas);
+            Console.WriteLine("Qunatidade de portas do Carro = {0}", Portas);
+            Console.WriteLine("Cor do Carro = {0}", Cor);
+            Console.WriteLine("Marca do Carro = {0}", Marca);
         }
     }
 }

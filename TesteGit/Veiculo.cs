@@ -19,11 +19,12 @@ namespace TesteGit
             Cor = cor;
         }
 
-        public void ExibirInfo()
+        virtual public void ExibirInfo()
         {
-            Console.WriteLine("Rodas = {0}", Rodas);
-            Console.WriteLine("Portas = {0}", Portas);
-            Console.WriteLine("Cor = {0}", Cor);
+            Console.WriteLine("Veículo Qualquer:");
+            Console.WriteLine("Rodas do veículo = {0}", Rodas);
+            Console.WriteLine("Portas do veículo = {0}", Portas);
+            Console.WriteLine("Cor do veículo = {0}", Cor);
         }
     }
 }
