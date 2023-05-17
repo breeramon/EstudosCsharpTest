@@ -10,8 +10,13 @@ namespace TesteGit
     {
         static void Main(string[] args)
         {
-            Veiculo veiculo1 = new Veiculo(4, 4, "Preto", "Ford");
+            Veiculo veiculo1 = new Veiculo(4, 4, "Preto");
             veiculo1.ExibirInfo();
+
+            Console.WriteLine("");
+
+            Carro carro1 = new Carro("Ford");
+            carro1.ExibirInfo();
 
             Console.ReadKey();
         }
