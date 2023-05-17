@@ -10,8 +10,9 @@ namespace TesteGit
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("ALOU");
-            Console.WriteLine("Teste pra ver se mudou algo");
+            Veiculo veiculo1 = new Veiculo(4, 4, "Preto", "Ford");
+            veiculo1.ExibirInfo();
+
             Console.ReadKey();
         }
     }
